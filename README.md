@@ -26,7 +26,9 @@ Step 4: Add the position multiplier to each object. This may require some trial 
 
 Step 5: Click the Generate scn Lines button
 
-Step 6: Copy the output and paste it into an scn file
+Step 6: Copy the output and paste it into an scn file (Note: Should be pasted into an existing scn file as the export does not contain all file flags)
+
+Step 7: Load your scn in webaverse (If scene is white, check the commas in the scn file and ensure they are all added correctly) 
 
 ![image](https://user-images.githubusercontent.com/36249159/167169228-4c8e479f-add8-4bc3-b86e-a7a34f436f1f.png)
 
