@@ -17,10 +17,18 @@ This is not designed to be a replacement for the webaverse level editors but rat
 
 ## How To Use
 Step 1: Expand out the "Objects" list and click the '+' button
+
 Step 2: Add a reference to a game object within your scene
+
 Step 3: Add a link to your asset. If you are planning to run the scn locally you can put your glb within the root folder of webaverse and reference it using ..YourAssetName.glb
+
 Step 4: Add the position multiplier to each object. This may require some trial and error as this may change depending on the scaling of your fbx assets
 
-![image](https://user-images.githubusercontent.com/36249159/167166731-d449bbcf-0feb-4ab9-a2e5-13a38291fb66.png)
+Step 5: Click the Generate scn Lines button
+
+Step 6: Copy the output and paste it into an scn file
+
+![image](https://user-images.githubusercontent.com/36249159/167169228-4c8e479f-add8-4bc3-b86e-a7a34f436f1f.png)
+
 
 
