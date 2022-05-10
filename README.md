@@ -11,6 +11,7 @@ This is not designed to be a replacement for the webaverse level editors but rat
 - Set the dynamic flags for individual objects
 - Add asset URL's for each object
 - Export both condensed and indented scn lines
+- Export only asset lines or generate all lines required in a scn file
 - Multiply position vectors for converting between Unity positional units and Webaverse positional units (Recomended value 100)
 
 ![image](https://user-images.githubusercontent.com/36249159/167113586-266f7749-932b-4727-b9ba-8a1e772501d9.png)
