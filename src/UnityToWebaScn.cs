@@ -14,6 +14,8 @@ public class UnityToWebaScn : MonoBehaviour
         public string assetURL;
         [Tooltip("Will the object be dynamic in webaverse")]
         public bool isDynamic;
+        [Tooltip("Will the object use physics in webaverse (Note that in webaverse physics refers to collision detection)")]
+        public bool hasPhysics;
         [Tooltip("The position multiplier for the object (Recomended: 100)")]
         public float positionMultiplier;
     }
@@ -103,10 +105,22 @@ public class UnityToWebaScn : MonoBehaviour
 
         if (!m_condensedLines) output += "\n    ";
 
+        //adding the scale 
+        output += "\"scale\" : [" + target.obj.transform.localScale.x + ", " + target.obj.transform.localScale.y + ", " + target.obj.transform.localScale.z + "], ";
+
+        if (!m_condensedLines) output += "\n    ";
+
         //adding the dynamic flag
-        output += "\"dynamic\": " + target.isDynamic.ToString().ToLower();
+        output += "\"dynamic\": " + target.isDynamic.ToString().ToLower() + ", ";
+
+        if (!m_condensedLines) output += "\n    ";
+
+
+        //adding the dynamic flag
+        output += "\"physics\": " + target.hasPhysics.ToString().ToLower();
 
         if (!m_condensedLines) output += "\n";
+
 
         output += "}";
 
